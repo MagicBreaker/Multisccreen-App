@@ -1,0 +1,150 @@
+#navbar{
+    display: flex;
+    position: sticky;
+    top:4px;
+    
+}
+
+.nav-box{
+    /* border: 2px solid black; */
+    
+    
+}
+
+#nav-icon{
+    position: absolute;
+    display: inline-block;
+    left: 23px;
+    top: 25px;
+}
+#nav-menu{
+    display: block;
+    width: 45%;
+    margin: 4px auto;
+    
+}
+#nav-right{
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+#nav-search input{
+    position: absolute;
+    right: 23px;
+    top: 28px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    
+}
+
+#nav-search ::placeholder{
+    color: black;
+    
+}
+
+#nav-search img{
+    display: flex;
+    position: relative;
+    top: 20px;
+    right: 25px;
+    height: 15px;
+    width: 15px;
+}
+#home{
+    display:flex;
+    flex-direction: column;
+}
+#home::before{
+    content: "";
+    display: flex;
+    position: absolute;
+    border-radius: 40px;
+    width: 98vw;
+    height: 98vh;
+    margin: 0px;
+    padding: 0px;
+    top: 60px;
+    /* left: 10px;
+    right:10px; */
+    background-image: url('../img/wall.jpg');
+    justify-content: center;
+    z-index: -1;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    overflow: auto;
+}
+
+header ul li a{
+    margin: 2px 34px;
+    text-decoration: none;
+    align-items: center;
+    color:black;
+}
+
+header ul li a:hover{
+    color:white;
+    font-size: 1.2rem;
+    background-color: #94ff7c;
+    border-radius: 10px ;
+}
+
+section{
+
+}
+
+#home{
+  
+    
+}
+#home-box{
+    font-size: 1.5rem;
+    display: block;
+    width: 800px;
+    height: 70vh;
+    margin: 200px auto;
+    text-align: center;
+}
+
+#site{
+    /* border: 2px solid black; */
+    height: 700px;
+}
+
+#site-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.site-box{
+    border: 3px solid black;
+    background-color: #78ff5a;
+    border-radius: 5px;
+    height: 200px;
+    width: 200px;
+    margin: 11px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+}
+.site-box:hover{
+    border: 3px solid #78ff5a;
+    background-color: azure;
+    /* transform: scale(1.2); */
+    border-radius: 10px;
+    height: 230px;
+    width: 230px;
+    
+}
+
+.heading{
+    font-size: 3rem;
+    text-align: center;
+}
